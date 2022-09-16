@@ -24,6 +24,7 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
+/* change all header div to header nav */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -69,12 +70,15 @@ p {
     margin-left: 25px;
 }
 
+/* change div class="content" to main selector */
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* remove div classes from main content, change to section selectors, condense code into one tag
+move all main selectors under first main selector */
 main section {
     margin-bottom: 20px;
     padding: 50px;
@@ -84,6 +88,7 @@ main section {
     color: #ffffff;
 }
 
+/* remove classes on img and h2, update selectors, and condense code */
 main section img {
     max-height: 200px;
 }
@@ -93,6 +98,7 @@ main section h2 {
     font-size: 36px;
 }
 
+/* remove div class="benefits", change to aside selector, and condense code*/
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -104,6 +110,7 @@ aside {
     background-color: #2589bd;
 }
 
+/* remove classes for benefit-lead, -brand, and -cost, change to aside selector, condense code for each section, h3, and img */
 aside section{
     margin-bottom: 32px;
     color: #ffffff;
